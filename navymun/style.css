@@ -1,0 +1,155 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+#top {
+    text-align: center;
+    background-color: #03132f;
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 200px;
+}
+
+#hero {
+    margin-top: 200px;
+    height: 680px;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpeg");
+    line-height: 2em;
+}
+
+#text {
+    width: 45%;
+    margin: 0 auto;
+    padding: 170px;
+    color: white;
+}
+
+#text h1 {
+    font-size: 4em;
+}
+
+#middle {
+    margin-top: auto;
+    height: 700px;
+    text-align: center;
+    padding: 60px;
+    background-color: #22385e;
+    line-height: 2;
+}
+
+#middle h1 {
+    font-size: 3em;
+    padding-bottom: 100px;
+    color: #5580b4;
+}
+
+.one, .two, .three {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #5580b4;
+}
+
+#why {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 65%;
+    margin: 0 auto;
+}
+
+#why h2 {
+    color: #f3ede8;
+}
+
+
+#contact {
+    height: 780px;
+    background-color: #041430;
+}
+
+#contactus {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5em;
+}
+
+#contact h1 {
+    text-align: center;
+    color: white;
+    display: inline;
+}
+
+#form {
+    padding-left: 500px;
+    padding-right: 500px;
+    color: white;
+}
+
+#bottom {
+    margin-top: auto;
+    height: 260px;
+    background-color: #041430;
+    text-align: center;
+    color: white;
+    line-height: 3;
+}
+
+#bigger {
+    font-size: 1.25em;
+}
+
+#bottom a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#logo {
+    padding: 2em;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    background-color: #041430;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid white; /* white border
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  ::placeholder {
+      color: white;
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 1em;
+  }
+  
+
